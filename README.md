@@ -32,7 +32,7 @@ pymysql
 1. Model Training and Deployment
 Fine-tune the DistilBERT-base-uncased model using the dataset.
 
-Save the fine-tuned model and app.py script to an S3 bucket.
+Save the fine-tuned model and App.py script to an S3 bucket.
 
 2. Set Up AWS Infrastructure
 S3: Upload model files and App.py script to a designated S3 bucket.
@@ -44,10 +44,10 @@ RDS: Set up a database to store user interaction logs.
 3. Deploy the Application
 SSH (secure shell) into the EC2 instance.
 
-Download the model and app.py from S3.
+Download the model and App.py from S3.
 
 Run the application:
-python app.py 
+python App.py 
 
 4. Access the Web Application
 Use the generated public URL to access the application.
