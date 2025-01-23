@@ -15,7 +15,6 @@ RDS: Log user interactions and predictions.
 Security: Implements IAM roles and AWS security best practices.
 ## Dataset
 Source: Entity-level sentiment analysis dataset of Twitter.
-Link: Dataset
 Classes: Positive, Neutral, Negative.
 ## Installation
 Prerequisites
@@ -68,9 +67,9 @@ Security groups to control inbound traffic.
 
 ├──  Python dependencies
 
-├── app.py # Gradio application script
+├── App.py # Gradio application script
 
-├── sentiment_analysis_1.csv # Preprocessed dataset
+├── Cleaned_Tweet_dataset.csv # Preprocessed dataset
 
 ├── model/ # Directory for the fine-tuned model files
 
@@ -80,11 +79,6 @@ Accuracy: Measures overall prediction correctness.
 Precision/Recall/F1-Score: Evaluate model performance on individual classes.
 
 Latency: Average time per prediction.
-
-## Contributions
-Contributions, issues, and feature requests are welcome!
-
-Feel free to fork the repository and submit pull requests.
 
 ## Acknowledgements
 Hugging Face Transformers for the pre-trained model.
